@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-devpi_common
-Version  : 4.0.0
-Release  : 4
-URL      : https://files.pythonhosted.org/packages/2d/87/1b2c328c821d32aa2ca3d176356555b302ebb3d5908f92e2ff3132c6bc29/devpi-common-4.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/2d/87/1b2c328c821d32aa2ca3d176356555b302ebb3d5908f92e2ff3132c6bc29/devpi-common-4.0.0.tar.gz
+Version  : 4.0.2
+Release  : 5
+URL      : https://files.pythonhosted.org/packages/65/ac/0e21663d2e7a6a320974256a2d907d753de13d0e720336866724980c0a9d/devpi-common-4.0.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/65/ac/0e21663d2e7a6a320974256a2d907d753de13d0e720336866724980c0a9d/devpi-common-4.0.2.tar.gz
 Summary  : Utilities jointly used by devpi-server, devpi-client and others.
 Group    : Development/Tools
 License  : MIT
@@ -62,10 +62,10 @@ python3 components for the pypi-devpi_common package.
 
 
 %prep
-%setup -q -n devpi-common-4.0.0
-cd %{_builddir}/devpi-common-4.0.0
+%setup -q -n devpi-common-4.0.2
+cd %{_builddir}/devpi-common-4.0.2
 pushd ..
-cp -a devpi-common-4.0.0 buildavx2
+cp -a devpi-common-4.0.2 buildavx2
 popd
 
 %build
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1697123684
+export SOURCE_DATE_EPOCH=1697470291
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
