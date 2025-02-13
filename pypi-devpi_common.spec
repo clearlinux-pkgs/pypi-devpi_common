@@ -7,7 +7,7 @@
 #
 Name     : pypi-devpi_common
 Version  : 4.0.4
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/4e/9a/3522931638d784eae9c854a023b86b6455db289ca823ab6eb257af433d4a/devpi_common-4.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4e/9a/3522931638d784eae9c854a023b86b6455db289ca823ab6eb257af433d4a/devpi_common-4.0.4.tar.gz
 Summary  : Utilities jointly used by devpi-server, devpi-client and others.
